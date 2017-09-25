@@ -1,0 +1,39 @@
+.container{
+    margin: 20px;
+}
+
+#toastArea {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+    font-size: 17px;
+}
+
+.toastSuccess{
+    background-color:  #00FA58; 
+    color: #333;
+    text-align: center;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 16px;
+}
+
+.toastInfo{
+    background-color:#EBFE00; 
+    color: #333;
+    text-align: center;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 16px;
+}
+
+.toastErreur{
+    background-color: #FC0000;
+    color: #333; 
+    text-align: center;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 16px;
+}
